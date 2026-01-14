@@ -18,8 +18,4 @@ Il modello riflette la mia duplice competenza:
 - **Predictive Scoring:** Logica di classificazione del rischio simulata (AAA a C).
 
 ## 🚀 Quick Start
-Per testare l'applicazione localmente:
-
-1. Clona la repository:
-   ```bash
-   git clone [https://github.com/RodolfoGiuliana/FinScore-AI.git](https://github.com/RodolfoGiuliana/FinScore-AI.git)
+Per testare l'applicazione localmente: https://esg-driven-credit-scoring-engine-htr3eddyjmdg3knq6man3r.streamlit.app/

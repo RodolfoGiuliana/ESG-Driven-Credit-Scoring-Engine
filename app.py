@@ -50,3 +50,17 @@ fig = go.Figure(go.Indicator(
 st.plotly_chart(fig)
 
 st.info("Nota tecnica: Il modello utilizza una ponderazione variabile tra indicatori di bilancio e score di sostenibilità, in linea con le normative EBA 2026.")
+
+
+with st.expander("🔍 Analisi della Metodologia (Internal Process)"):
+    st.write("""
+    Il modello applica una ponderazione mista:
+    - **60% Financial Health:** Basato su indici di liquidità e solvibilità (DSCR, Leverage).
+    - **40% ESG Impact:** Valutazione della resilienza climatica e della governance.
+    
+    Questa architettura riflette le linee guida EBA 2026 sul monitoraggio del rischio di credito per le PMI.
+    """)
+
+if "AAA" in rating:
+    st.balloons() # Un tocco di classe quando il rating è massimo
+    st.info("💡 Suggerimento: L'azienda presenta una struttura ottimale per operazioni di finanza straordinaria.")

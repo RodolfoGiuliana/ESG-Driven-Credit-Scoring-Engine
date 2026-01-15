@@ -74,3 +74,19 @@ with st.expander("📊 Analisi Dettagliata del Merito Creditizio"):
     
     if esg_input > 70:
         st.info("🌱 Il forte profilo ESG agisce come mitigatore di rischio, migliorando il rating finale.")
+
+
+
+
+
+
+ ##### PARTE PER COLLEGAMENTO AI LETTURA PDF , DA AGGIORNARE ###
+
+
+st.header("📂 Caricamento Automatico Bilancio")
+uploaded_file = st.file_uploader("Carica il bilancio in PDF", type="pdf")
+
+if uploaded_file:
+    with st.spinner("L'AI sta analizzando il bilancio..."):
+        # Lettura file
+        st.success("Dati estratti con successo!")

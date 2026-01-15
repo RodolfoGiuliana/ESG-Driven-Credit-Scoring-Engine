@@ -62,5 +62,15 @@ with st.expander("🔍 Analisi della Metodologia (Internal Process)"):
     """)
 
 if "AAA" in rating:
-    st.balloons() # Un tocco di classe quando il rating è massimo
+    st.balloons() # Palloncini
     st.info("💡 Suggerimento: L'azienda presenta una struttura ottimale per operazioni di finanza straordinaria.")
+
+
+with st.expander("📊 Analisi Dettagliata del Merito Creditizio"):
+    if ratios['dscr'] < 1.0:
+        st.warning("⚠️ Attenzione: Il DSCR è sotto la soglia di sicurezza. La capacità di rimborso è limitata.")
+    else:
+        st.success("✅ La generazione di cassa (EBITDA) copre adeguatamente il servizio del debito.")
+    
+    if esg_input > 70:
+        st.info("🌱 Il forte profilo ESG agisce come mitigatore di rischio, migliorando il rating finale.")

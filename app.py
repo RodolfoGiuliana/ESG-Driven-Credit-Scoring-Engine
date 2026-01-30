@@ -94,10 +94,13 @@ if uploaded_file:
 
 import os
 
-# ... il resto del tuo codice ...
 
 
-    # Railway assegna una porta dinamicamente, dobbiamo leggerla così:
+
+  
+
+..
+
+if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
-  from flask import Flask
-app = Flask(__name__) # <--- Questa riga deve esserci!
+    app.run(host='0.0.0.0', port=port)

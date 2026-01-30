@@ -96,8 +96,8 @@ import os
 
 # ... il resto del tuo codice ...
 
-if __name__ == "__main__":
+
     # Railway assegna una porta dinamicamente, dobbiamo leggerla così:
     port = int(os.environ.get("PORT", 8080))
-    # '0.0.0.0' è fondamentale per rendere l'app accessibile dall'esterno
-    app.run(host='0.0.0.0', port=port)
+  from flask import Flask
+app = Flask(__name__) # <--- Questa riga deve esserci!

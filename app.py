@@ -90,3 +90,14 @@ if uploaded_file:
     with st.spinner("L'AI sta analizzando il bilancio..."):
         # Lettura file
         st.success("Dati estratti con successo!")
+
+
+import os
+
+# ... il resto del tuo codice ...
+
+if __name__ == "__main__":
+    # Railway assegna una porta dinamicamente, dobbiamo leggerla così:
+    port = int(os.environ.get("PORT", 8080))
+    # '0.0.0.0' è fondamentale per rendere l'app accessibile dall'esterno
+    app.run(host='0.0.0.0', port=port)

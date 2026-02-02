@@ -6,7 +6,7 @@ st.set_page_config(page_title="FinScore AI | Rodolfo Giuliana", layout="wide")
 
 st.title("🏦 FinScore-AI: Credit Risk Dashboard")
 st.markdown("### Modello di Scoring Integrato per il Corporate Banking (ESG-Ready)")
-st.write("Sviluppato da **Rodolfo Giuliana** - *Expertise in Finance & Machine Learning*")
+st.write("Sviluppato da **Rodolfo Giuliana** - *Expertise in Finance & Machine Learning* & Cerberus Asset")
 
 # Sidebar per input dati
 st.sidebar.header("Dati Finanziari PMI")

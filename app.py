@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.title("🏦 FinScore-AI: Credit Risk Dashboard")
 st.markdown("### Modello di Scoring Integrato per il Corporate Banking (ESG-Ready)")
-st.write("Sviluppato da **Rodolfo Giuliana** - *Expertise in Finance & Machine Learning* & Cerberus Asset")
+st.write("Sviluppato da **CERBERUS R&D** - *Expertise in Finance & Machine Learning* & Cerberus Asset")
 
 # ---------------------------------------------------
 # SIDEBAR INPUT DATI
